@@ -65,12 +65,12 @@ componentWillUnmount(){
         }
         //console.log(option);
 
-    //merubah nilai state options, menampung data option->array akan bertambah
-            // this.setState((prevState)=>{
-            //     return{
-            //         options : prevState.options.concat(option)
-            //     }
-            // })
+    // merubah nilai state options, menampung data option->array akan bertambah
+    //         this.setState((prevState)=>{
+    //             return{
+    //                 options : prevState.options.concat(option)
+    //             }
+    //         })
 
     this.setState(
         (prevState)=>({
@@ -122,7 +122,7 @@ componentWillUnmount(){
     render(){
         //Ini adalah Props.
         //Deklarasi semua variabel yg akan di gunakan semua class=======
-        const title = 'Indecision App 1';
+        const title = 'Indecision App 1 git';
         const subtitle = 'ini adlaah subtitlekui';
         //const options = ['satu','dua','tiga'];
         
